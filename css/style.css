@@ -94,10 +94,76 @@ main{
 }
 
 .formulario{
-    background-color: aqua;
     width: 700px;
     display: flex;
     position: absolute;
     top: 30%;
     left: 50%;
+}
+
+.nome-numero{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-numero label{
+    color: rgb(69, 69, 69);
+    margin-bottom: 5px;
+}
+
+.nome-numero input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(237, 232, 232);
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+input::placeholder{
+    color: rgb(184, 181, 181);
+}
+
+.label-data{
+    color: rgb(69, 69, 69);
+    margin-bottom: 5px;
+}
+
+.expdata-cvc input{
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(237, 232, 232);
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#cvc{
+    margin-left: 50px;
+    width: 220px;
+}
+
+.label-cvc{
+    color: rgb(69, 69, 69);
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.confirmar{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 58);
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.confirmar:hover{
+    transform: scale(1.1);
 }
