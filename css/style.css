@@ -81,5 +81,13 @@ main{
     height: 240px;
     border-radius: 10px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.cvc{
+    color: white;
+    margin-left: 300px;
 }
