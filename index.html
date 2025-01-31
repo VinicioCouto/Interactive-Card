@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Card</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
@@ -17,12 +18,7 @@
             <div class="cartao-frente">
                 <img src="/img/card-logo.svg" alt="">
                 <div class="numero-cartao">
-                    <ul>
-                        <li>0000</li>
-                        <li>0000</li>
-                        <li>0000</li>
-                        <li>0000</li>
-                    </ul>
+                    <p class="numero">0000 0000 0000 0000</p>
                 </div>
                 <div class="nome-box">
                     <p class="nome">Vinicio Teixeira Couto</p>
@@ -33,6 +29,37 @@
             <div class="cartao-fundo">
                 <p class="cvc">000</p>
             </div>
+        </div>
+
+        <div class="formulario">
+            <form action="">
+                <div class="nome-numero">
+
+                    <label for="nome">Nome do Titular</label>
+                    <input type="text" id="nome" name="nome" placeholder="e.g.Name">
+
+                    <label for="numero">Número do Cartão</label>
+                    <input type="number" id="numero" name="numero" placeholder="e.g. 0000 0000 0000 0000">
+                </div>
+                <div class="expdata-cvc">
+
+                    <label for="mes">Exp.Data(MM/YY)</label>
+                    <label for="">CVC</label>
+
+                    <div class="mes-ano-cvc">
+
+                        <input type="number" id="mes" name="mes" placeholder="MM">
+                        <input type="number" id="ano" name="ano" placeholder="YY">
+
+                        <input type="number" id="cvc" name="cvc" placeholder="e.g. 000">
+
+                    </div>
+
+                    <button class="confirmar">
+                        Confirmar
+                    </button>
+                </div>
+            </form>
         </div>
     </main>
 

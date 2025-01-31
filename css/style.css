@@ -49,7 +49,7 @@ main{
     margin-left: 30px;
 }
 
-.numero-cartao ul{
+.numero-cartao{
     list-style: none;
     display: flex;
     justify-content: center;
@@ -57,9 +57,10 @@ main{
     margin-top: 40px;
 }
 
-.numero-cartao li{
+
+.numero{
     font-size: 30px;
-    margin-left:10px;
+    
 }
 
 .nome-box{
@@ -90,4 +91,13 @@ main{
 .cvc{
     color: white;
     margin-left: 300px;
+}
+
+.formulario{
+    background-color: aqua;
+    width: 700px;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
 }
